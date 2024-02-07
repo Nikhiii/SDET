@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Grade Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Grade Calculator</h1>
+        <form id="gradeForm">
+            <label for="assignment1">Assignment 1:</label>
+            <input type="number" id="assignment1" min="0" max="100" required>
+
+            <label for="assignment2">Assignment 2:</label>
+            <input type="number" id="assignment2" min="0" max="100" required>
+
+            <label for="assignment3">Assignment 3:</label>
+            <input type="number" id="assignment3" min="0" max="100" required>
+
+            <button type="button" onclick="calculateGrade()">Calculate Grade</button>
+        </form>
+
+        <table id="marksTable" class="hidden">
+            <thead>
+                <tr>
+                    <th>Assignment</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Marks will be dynamically added here -->
+            </tbody>
+        </table>
+
+        <div id="result" class="hidden">
+            <p>Overall Grade: <span id="overallGrade">--</span></p>
+            <p>Average Score: <span id="averageScore">--</span></p>
+            <p>Feedback: <span id="feedback">--</span></p>
+        </div>
+    </div   >
+
+    <script src="script.js"></script>
+</body>
+</html>

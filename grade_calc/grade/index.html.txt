@@ -1,0 +1,13 @@
+git remote add origin https://github.com/Nikhiii/example.git
+git branch -M main
+git push -u origin main
+
+
+QC done for swap_hub project and the changes for all the three project (Employee_directory, Find_doctor, Find_medicine) are done on solution and documentation level. -> till 2pm
+
+
+March - 23 to April - 14 => total 23 days
+8 holidays 
+
+
+

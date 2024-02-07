@@ -1,0 +1,165 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HOLLYWOOD BEST MOVIES COLLECTION LIST</h1>
+        <table>
+            <tr>
+                <th>Sl.NO</th>
+                <th>MOVIE</th>
+                <th>STUDIO</th>
+                <th>JOURNER</th>
+                <th>YEAR</th>
+                <th>COLLECTION</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>AVATAR</td>
+                <td>DISNEY</td>
+                <td>ANIMATION</td>
+                <td>18 NOV 2015</td>
+                <td>$160 MILLION</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>INTERSTELLAR</td>
+                <td>HAZEL</td>
+                <td>SCI-FICTION</td>
+                <td>21 MAR 2019</td>
+                <td>$220 MILLION</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>HARRY POTTER</td>
+                <td>WARNER BROS</td>
+                <td>ADVENTURE</td>
+                <td>09 DEC 2004</td>
+                <td>$360 MILLION</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>CONJURING</td>
+                <td>FOX</td>
+                <td>HORROR</td>
+                <td>28 OCT 2011</td>
+                <td>$60 MILLION</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>ICE AGE</td>
+                <td>DISNEY</td>
+                <td>DRAMA</td>
+                <td>16 DEC 2022</td>
+                <td>$560 MILLION</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>AVENGERS</td>
+                <td>MARVEL</td>
+                <td>THRILLER</td>
+                <td>18 NOV 2015</td>
+                <td>$480 MILLION</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>LIGHTS OUT</td>
+                <td>GREEN DOTS</td>
+                <td>PHYSCO-THRILLER</td>
+                <td>08 MAY 2020</td>
+                <td>$80 MILLION</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>BOSS BABY</td>
+                <td>DISNEY</td>
+                <td>COMEDY</td>
+                <td>14 APR 2016</td>
+                <td>$100 MILLION</td>
+            </tr>
+        </table>
+        <br>
+        <button class="total-collection-button" onclick="showTotalCollection()">Show Total Collection</button>
+
+        <script>
+            
+            function showTotalCollection() {
+                const collectionCells = document.querySelectorAll("td:nth-child(6)");
+                let totalCollection = 0;
+                for (let i = 0; i < collectionCells.length; i++) {
+                    const collectionValue = parseInt(collectionCells[i].innerText.replace("$", "").replace(" MILLION", ""));
+                    totalCollection += collectionValue;
+                }
+                alert(`Total Collection: $${totalCollection} Million`);
+            }
+        </script>
+    </div>
+</body>
+</html>
+
+
+
+
+ -->
+
+
+
+
+ <!-- NEW -->
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HOLLYWOOD BEST MOVIES COLLECTION LIST</h1>
+        <table>
+            <tr>
+                <th>Sl.NO</th>
+                <th>MOVIE</th>
+                <th>STUDIO</th>
+                <th>JOURNER</th>
+                <th>YEAR</th>
+                <th>COLLECTION</th>
+            </tr>
+            <!-- You can add more rows with random data if needed -->
+            <tr>
+                <td>1</td>
+                <td>Movie 1</td>
+                <td>Studio 1</td>
+                <td>Genre 1</td>
+                <td>01 JAN 2023</td>
+                <td>123 MILLION</td>
+            </tr>
+            <!-- Add more rows as needed -->
+
+        </table>
+        <br>
+        <button class="total-collection-button" onclick="showTotalCollection()">Show Total Collection</button>
+
+        <script>
+            function showTotalCollection() {
+                const collectionCells = document.querySelectorAll("td:nth-child(6)");
+                let totalCollection = 0;
+                for (let i = 0; i < collectionCells.length; i++) {
+                    // Remove the $ symbol and "MILLION" from the collection data
+                    const collectionValue = parseInt(collectionCells[i].innerText.replace("$", "").replace(" MILLION", ""));
+                    totalCollection += collectionValue;
+                }
+                alert(`Total Collection: $${totalCollection} Million`);
+            }
+        </script>
+    </div>
+</body>
+</html>
